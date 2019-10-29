@@ -1,0 +1,49 @@
+Intro to Git!
+
+1. What is revision control?  
+a. Why do I need it?
+b. Benefits for a team
+c. Benefits for a solo dev.
+d. What happens if I don’t have it?
+2. Description of client/server model.
+a. Subversion, Perforce, Surround SCM, Team Foundation Server
+b. Server is the master, and all the clients are beholden to that.
+c. Client only has copies of files they pulled or checked out.
+d. Files cannot be worked on simultaneously.  
+3. Description of distributed model.
+a. Git, Mercurial.
+b. Everyone has a copy!
+c. Everyone is the master….in their own little realm. 
+d. Simultaneous work, but now you have to reconcile. 
+4. How does Git work?[KS1]
+a. Committing
+b. Branching/Merging (unbranching)
+c. Push (and Pull)
+i. Within a team and to non-developers (“the public”)
+d. Everything else serves these three functions.
+5. Standard Operating Procedures
+a. What is GitFlow?
+b. Alternatives.
+6. Servers
+a. Purpose
+b. GitHub, BitBucket, GitLab.
+c. Place in the workflow. 
+7. Flavors of Git.
+a. Command Line
+b. GUI: Git GUI, SourceTree, Kraken, TortoiseGit, GitHub Desktop, etc. 
+c. GUI Integrations: VSCode, Atom, 
+8. Git with Labview.
+a. File Types
+i. XML based files
+ii. .vis (binary blobs or are they?)
+b. Compare/Diff
+i. Option 1: do it manually
+ii. Option 2: lvcompare.exe
+c. Merge
+i. Option 1: Override
+ii. Option 2: Manually.
+iii. Option 3: lvmerge.exe
+d. Ignore
+i. Files to ignore.
+
+[KS1]Maybe speak to differences in language between SVN and Git
